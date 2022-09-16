@@ -36,6 +36,23 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  
+    <distributionManagement>
+
+            <repository>
+              <id>nexus</id>
+              <name>Mithun Technologies Releases Nexus Repository</name>
+              <url>http://3.110.133.49:8007/repository/release1/</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>Mithun Technologies Snapshot Nexus Repository </name>
+              <url>http://3.110.133.49:8007/repository/snapshotpet/</url>
+            </snapshotRepository>
+
+     </distributionManagement>
+
 
   <build>
     <plugins>
