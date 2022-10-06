@@ -44,16 +44,29 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
+    <dependency><distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Boxfuse Releases Nexus Repository</name>
+	      <url>http://54.235.30.244:8081/repository/boxrelease/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Boxfuse Snapshot Nexus Repository </name>
+	      <url>http://54.235.30.244:8081/repository/boxsnapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+      
+        <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-tomcat</artifactId>
       <scope>provided</scope>
     </dependency>
   </dependencies>
   
-    
-
-  <build>
+     <build>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
