@@ -44,7 +44,13 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-    <dependency><distributionManagement>
+    <dependency>
+	
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-tomcat</artifactId>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies> <distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
@@ -59,14 +65,8 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
-      
-        <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-tomcat</artifactId>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
-  
-     <build>
+	
+ <build>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
