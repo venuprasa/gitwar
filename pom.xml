@@ -50,7 +50,9 @@
       <artifactId>spring-boot-starter-tomcat</artifactId>
       <scope>provided</scope>
     </dependency>
-  </dependencies> <distributionManagement>
+  </dependencies> 
+	
+	<distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
