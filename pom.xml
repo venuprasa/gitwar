@@ -55,13 +55,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Boxfuse Releases Nexus Repository</name>
-	      <url>http://54.235.30.244:8081/repository/boxrelease/</url>
+	      <url>http://54.90.216.108:8081/repository/pipelinerelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Boxfuse Snapshot Nexus Repository </name>
-	      <url>http://54.235.30.244:8081/repository/boxsnapshot/</url>
+	      <url>http://54.90.216.108:8081/repository/pipelinesnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
