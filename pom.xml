@@ -57,13 +57,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>jenkinsreleases Nexus Repository</name>
-	      <url>http://54.242.178.37:8081/repository/nexusrelease/</url>
+	      <url>http://54.242.178.37:8081/repository/artyrelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>jenkinssnapshot Nexus Repository </name>
-	      <url>http://54.242.178.37:8081/repository/nexussnapshot/</url>
+	      <url>http://54.242.178.37:8081/repository/artysnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
