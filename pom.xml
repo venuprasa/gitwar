@@ -63,7 +63,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>jenkinssnapshot Nexus Repository </name>
-	      <url>http://54.242.178.37:8081/repository/maven-snapshots/</url>
+	      <url>http://54.242.178.37:8081/repository/nexussnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
